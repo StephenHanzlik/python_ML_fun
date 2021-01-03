@@ -20,7 +20,7 @@ for image_url in images:
   image_ref_number += 1
   item = {
     "image_url": image_url,
-    "reference_id": f"image_reference{image_ref_number}",
+    "reference_id": f"image_reference_{image_ref_number}",
     "metadata": {
     "state": "Washington",
       "year": 2019
