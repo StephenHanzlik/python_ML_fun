@@ -2,15 +2,15 @@ import requests
 import os
 import json
 
-dataset_id = 'ds_bzr92pagp610060y41qg'
+dataset_id = 'ds_bzrxwxbgp6100ehas4eg'
 api_key = os.environ.get('SCALE_API_KEY')
 
-images = ("https://drive.google.com/file/d/19OuWm9AIXYN2TdP3960yplg0mJCZF5_s", 
-"https://drive.google.com/file/d/1fJHPMbPWoAe1M6xIpoW4OxAQTBp0yw8q",
-"https://drive.google.com/file/d/1dPvs0BOYnYzspf5c20fZbnSagzAddMHh",
-"https://drive.google.com/file/d/1SIEX3VUzW6NRPP-_QDiC2N4KDUavUqZq",
-"https://drive.google.com/file/d/1a3kP7PbWvzrLag9wDJHFh4AV5vlniK-f",
-"https://drive.google.com/file/d/1tWFfAlrDhbnHKbgXJ3_lD6kvWt8WUpCU"
+images = ("https://drive.google.com/uc?export=download&id=19OuWm9AIXYN2TdP3960yplg0mJCZF5_s", 
+"https://drive.google.com/uc?export=download&id=1fJHPMbPWoAe1M6xIpoW4OxAQTBp0yw8q",
+"https://drive.google.com/uc?export=download&id=1dPvs0BOYnYzspf5c20fZbnSagzAddMHh",
+"https://drive.google.com/uc?export=download&id=1SIEX3VUzW6NRPP-_QDiC2N4KDUavUqZq",
+"https://drive.google.com/uc?export=download&id=1a3kP7PbWvzrLag9wDJHFh4AV5vlniK-f",
+"https://drive.google.com/uc?export=download&id=1tWFfAlrDhbnHKbgXJ3_lD6kvWt8WUpCU"
 )
 
 items = []
